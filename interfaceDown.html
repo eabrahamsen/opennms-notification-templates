@@ -27,7 +27,7 @@
             width: 800px;
         }
 
-        .server_name {
+        .section {
             font-weight: bold;
             height: 30px;
             width: 100%;
@@ -36,6 +36,16 @@
             color: white;
             vertical-align: middle;
         }
+
+        .section a {
+            color: white;
+        }
+
+        .section a:hover {
+            color: #dddddd;
+        }
+
+
 
         .first_column {
             width: 130px;
@@ -94,7 +104,7 @@
 <br>
 <table border="0" cellspacing="0" cellpadding="0" style="border-bottom:1px; width: 800px;">
     <tr>
-        <td class="server_name"> Node: %nodelabel%</td>
+        <td class="section"> Node: %nodelabel%</td>
     </tr>
 </table>
 <br>
@@ -135,7 +145,7 @@
 <br>
 <table border="0" cellspacing="0" cellpadding="0" style="border-bottom:1px; width: 800px;">
     <tr>
-        <td class="server_name">Asset Information</td>
+        <td class="section">Asset Information</td>
     </tr>
 </table>
 <br>
@@ -157,7 +167,7 @@
         <td class="second_column">%asset[operatingSystem]%</td>
     </tr>
     <tr>
-        <td class="first_column">department:</td>
+        <td class="first_column">Department:</td>
         <td class="second_column">%asset[department]%</td>
     </tr>
     <tr class="grey_row">
