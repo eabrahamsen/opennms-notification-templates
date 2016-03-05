@@ -1,0 +1,173 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Monitor Alarm</title>
+    <style type="text/css">
+        body {
+            font-family: "Open Sans", "Helvetica", Arial, sans-serif;
+            color: #000000;
+            margin: 5px;
+        }
+
+        td {
+            padding: 0.5em;
+        }
+
+        a {
+            text-decoration: none;
+            color: #4c9d29;
+        }
+
+        div.main_title {
+            color: #4c9d29;
+            font-weight: bold;
+            font-size: 16pt;
+            width: 800px;
+        }
+
+        .server_name {
+            font-weight: bold;
+            height: 30px;
+            width: 100%;
+            font-size: 14pt;
+            background-color: #4c9d29;
+            color: white;
+            vertical-align: middle;
+        }
+
+        .first_column {
+            width: 130px;
+            font-weight: bold;
+            color: #404040;
+        }
+
+        .second_column {
+            font-weight: normal;
+            font-size: 11pt;
+        }
+
+        .grey_row {
+            background-color: #eeeeec;
+        }
+
+        .Critical {
+            background-color: #e45d5b;
+            font-weight: normal;
+            font-size: 11pt;
+        }
+
+        .Major {
+            background-color: #eb8046;
+            font-weight: normal;
+            font-size: 11pt;
+        }
+
+        .Minor {
+            background-color: #f3a336;
+            font-weight: normal;
+            font-size: 11pt;
+        }
+
+        .Warning {
+            background-color: #fdd557;
+            font-weight: normal;
+            font-size: 11pt;
+        }
+
+        .Normal {
+            background-color: #99be74;
+            font-weight: normal;
+            font-size: 11pt;
+        }
+
+        .main_table {
+            width: 800px;
+            padding: 3px;
+            font-size: 11pt;
+        }
+    </style>
+</head>
+<body>
+<div class="main_title">OpenNMS Horizon</div>
+<br>
+<table border="0" cellspacing="0" cellpadding="0" style="border-bottom:1px; width: 800px;">
+    <tr>
+        <td class="server_name"> Server: %nodelabel%</td>
+    </tr>
+</table>
+<br>
+<table border="0" cellspacing="1" cellpadding="0" class="main_table">
+    <tr>
+        <td class="first_column">Object:</td>
+        <td class="second_column"><a href="OPENNMS_URL_BASE/element/interface.jsp?node=%nodeid%&intf=%interface%">%interface% (%interfaceresolve%)</a></td>
+    </tr>
+    <tr class="grey_row">
+        <td class="first_column">Status:</td>
+        <td class="%severity%">%severity%: Interface Down</td>
+    </tr>
+    <tr>
+        <td class="first_column">Time:</td>
+        <td class="second_column">%time%</td>
+    </tr>
+    <tr class="grey_row">
+        <td class="first_column">Log Message:</td>
+        <td class="second_column">%logmsg%</td>
+    </tr>
+    <tr>
+        <td class="first_column">Log Description:</td>
+        <td class="second_column">%descr%</td>
+    </tr>
+    <tr class="grey_row">
+        <td class="first_column">Instruction:</td>
+        <td class="second_column">%operinstruct%</td>
+    </tr>
+    <tr>
+        <td class="first_column">Notification Id:</td>
+        <td class="second_column"><a href="OPENNMS_URL_BASE/notification/detail.jsp?notice=%noticeid%">%noticeid%</a></td>
+    </tr>
+    <tr class="grey_row">
+        <td class="first_column">Source Event:</td>
+        <td class="second_column"><a href="OPENNMS_URL_BASE/event/detail.jsp?id=%eventid%">%eventid%</a></td>
+    </tr>
+</table>
+<br>
+<table border="0" cellspacing="0" cellpadding="0" style="border-bottom:1px; width: 800px;">
+    <tr>
+        <td class="server_name">Asset Information</td>
+    </tr>
+</table>
+<br>
+<table border="0" cellspacing="1" cellpadding="0" class="main_table">
+    <tr>
+        <td class="first_column">Manufacturer:</td>
+        <td class="second_column">%asset[manufacturer]%</td>
+    </tr>
+    <tr class="grey_row">
+        <td class="first_column">Model Number:</td>
+        <td class="second_column">%asset[modelNumber]%</td>
+    </tr>
+    <tr>
+        <td class="first_column">Serial Number:</td>
+        <td class="second_column">%asset[serialNumber]%</td>
+    </tr>
+    <tr class="grey_row">
+        <td class="first_column">OS:</td>
+        <td class="second_column">%asset[operatingSystem]%</td>
+    </tr>
+    <tr>
+        <td class="first_column">department:</td>
+        <td class="second_column">%asset[department]%</td>
+    </tr>
+    <tr class="grey_row">
+        <td class="first_column">Address:</td>
+        <td class="second_column">%asset[address1]%</td>
+    </tr>
+    <tr>
+        <td class="first_column">City with ZIP:</td>
+        <td class="second_column">%asset[city]% %asset[zip]%</td>
+    </tr>
+</table>
+</body>
+</html>
