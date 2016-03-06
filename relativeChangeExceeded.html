@@ -109,23 +109,31 @@
 <table border="0" cellspacing="1" cellpadding="0" class="main_table">
     <tr>
         <td class="first_column">Object:</td>
-        <td class="second_column"><a href="OPENNMS_URL_BASE/element/interface.jsp?node=%nodeid%&intf=%interface%">%interface% (%interfaceresolve%)</a></td>
+        <td class="second_column"><a href="OPENNMS_URL_BASE/graph/results.htm?reports=all&resourceId=%parm[resourceId]%">%parm[ds]% :: %parm[label]%</a></td>
     </tr>
     <tr class="grey_row">
         <td class="first_column">Status:</td>
-        <td class="%severity%">%severity%: Interface Down</td>
+        <td class="%severity%">%severity%: Relative Change Threshold Exceeded</td>
+    </tr>
+    <tr>
+        <td class="first_column">Measurement:</td>
+        <td class="second_column"><font color="#cc0000">%parm[value]%</font></td>
+    </tr>
+    <tr class="grey_row">
+        <td class="first_column">Threshold:</td>
+        <td class="second_column">%parm[threshold]%</td>
+    </tr>
+    <tr>
+        <td class="first_column">Rearm:</td>
+        <td class="second_column">%parm[rearm]%</td>
+    </tr>
+    <tr class="grey_row">
+        <td class="first_column">Trigger:</td>
+        <td class="second_column">%parm[trigger]%</td>
     </tr>
     <tr>
         <td class="first_column">Time:</td>
         <td class="second_column">%time%</td>
-    </tr>
-    <tr class="grey_row">
-        <td class="first_column">Log Message:</td>
-        <td class="second_column">%logmsg%</td>
-    </tr>
-    <tr>
-        <td class="first_column">Log Description:</td>
-        <td class="second_column">%descr%</td>
     </tr>
     <tr class="grey_row">
         <td class="first_column">Instruction:</td>
