@@ -1,0 +1,21 @@
+= OpenNMS HTML Notification Templates
+
+Notifications are an important part running a monitoring system.
+This repository has notification templates and a default configuration to improve default notifications in OpenNMS.
+To visualize the information the notifications are sent as HTML styled with simple CSS.
+All content is within the mail notification and there is no content which has to be downloaded from external resources.
+For this reason the configuration file `javamail-configuration.properties` has to be changed to
+
+[source]
+----
+org.opennms.core.utils.messageContentType=text/html
+org.opennms.core.utils.charset=utf-8
+----
+
+For each notification the mail text is saved in a dedicated HTML file.
+If you create new notifications you can copy and paste the content of the HTML files in the "Text Message" field in the notification editor in OpenNMS WebUI.
+
+Feel free to fork and improve
+
+* Author: ronny@opennms.org
+* License: http://creativecommons.org/licenses/by/4.0/
