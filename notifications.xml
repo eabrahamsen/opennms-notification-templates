@@ -14,7 +14,7 @@
 &lt;html xmlns="http://www.w3.org/1999/xhtml"&gt;&#xd;
 &lt;head&gt;&#xd;
     &lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"&gt;&#xd;
-    &lt;title&gt;Monitor Alarm&lt;/title&gt;&#xd;
+    &lt;title&gt;OpenNMS Notification&lt;/title&gt;&#xd;
     &lt;style type="text/css"&gt;&#xd;
         body {&#xd;
             font-family: "Open Sans", "Helvetica", Arial, sans-serif;&#xd;
@@ -203,7 +203,7 @@
 &lt;html xmlns="http://www.w3.org/1999/xhtml"&gt;&#xd;
 &lt;head&gt;&#xd;
     &lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"&gt;&#xd;
-    &lt;title&gt;Monitor Alarm&lt;/title&gt;&#xd;
+    &lt;title&gt;OpenNMS Notification&lt;/title&gt;&#xd;
     &lt;style type="text/css"&gt;&#xd;
         body {&#xd;
             font-family: "Open Sans", "Helvetica", Arial, sans-serif;&#xd;
@@ -392,7 +392,7 @@
 &lt;html xmlns="http://www.w3.org/1999/xhtml"&gt;&#xd;
 &lt;head&gt;&#xd;
     &lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"&gt;&#xd;
-    &lt;title&gt;Monitor Alarm&lt;/title&gt;&#xd;
+    &lt;title&gt;OpenNMS Notification&lt;/title&gt;&#xd;
     &lt;style type="text/css"&gt;&#xd;
         body {&#xd;
             font-family: "Open Sans", "Helvetica", Arial, sans-serif;&#xd;
@@ -581,7 +581,7 @@
     &lt;html xmlns="http://www.w3.org/1999/xhtml"&gt;&#xd;
     &lt;head&gt;&#xd;
         &lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"&gt;&#xd;
-        &lt;title&gt;Monitor Alarm&lt;/title&gt;&#xd;
+        &lt;title&gt;OpenNMS Notification&lt;/title&gt;&#xd;
         &lt;style type="text/css"&gt;&#xd;
             body {&#xd;
                 font-family: "Open Sans", "Helvetica", Arial, sans-serif;&#xd;
@@ -778,7 +778,7 @@
       &lt;html xmlns="http://www.w3.org/1999/xhtml"&gt;&#xd;
       &lt;head&gt;&#xd;
           &lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"&gt;&#xd;
-          &lt;title&gt;Monitor Alarm&lt;/title&gt;&#xd;
+          &lt;title&gt;OpenNMS Notification&lt;/title&gt;&#xd;
           &lt;style type="text/css"&gt;&#xd;
               body {&#xd;
                   font-family: "Open Sans", "Helvetica", Arial, sans-serif;&#xd;
@@ -975,7 +975,7 @@
         &lt;html xmlns="http://www.w3.org/1999/xhtml"&gt;&#xd;
         &lt;head&gt;&#xd;
             &lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"&gt;&#xd;
-            &lt;title&gt;Monitor Alarm&lt;/title&gt;&#xd;
+            &lt;title&gt;OpenNMS Notification&lt;/title&gt;&#xd;
             &lt;style type="text/css"&gt;&#xd;
                 body {&#xd;
                     font-family: "Open Sans", "Helvetica", Arial, sans-serif;&#xd;
@@ -1172,7 +1172,7 @@
         &lt;html xmlns="http://www.w3.org/1999/xhtml"&gt;&#xd;
         &lt;head&gt;&#xd;
             &lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"&gt;&#xd;
-            &lt;title&gt;Monitor Alarm&lt;/title&gt;&#xd;
+            &lt;title&gt;OpenNMS Notification&lt;/title&gt;&#xd;
             &lt;style type="text/css"&gt;&#xd;
                 body {&#xd;
                     font-family: "Open Sans", "Helvetica", Arial, sans-serif;&#xd;
@@ -1369,7 +1369,7 @@
         &lt;html xmlns="http://www.w3.org/1999/xhtml"&gt;&#xd;
         &lt;head&gt;&#xd;
             &lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"&gt;&#xd;
-            &lt;title&gt;Monitor Alarm&lt;/title&gt;&#xd;
+            &lt;title&gt;OpenNMS Notification&lt;/title&gt;&#xd;
             &lt;style type="text/css"&gt;&#xd;
                 body {&#xd;
                     font-family: "Open Sans", "Helvetica", Arial, sans-serif;&#xd;
@@ -1566,7 +1566,7 @@
         &lt;html xmlns="http://www.w3.org/1999/xhtml"&gt;&#xd;
         &lt;head&gt;&#xd;
             &lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"&gt;&#xd;
-            &lt;title&gt;Monitor Alarm&lt;/title&gt;&#xd;
+            &lt;title&gt;OpenNMS Notification&lt;/title&gt;&#xd;
             &lt;style type="text/css"&gt;&#xd;
                 body {&#xd;
                     font-family: "Open Sans", "Helvetica", Arial, sans-serif;&#xd;
@@ -1763,7 +1763,7 @@
         &lt;html xmlns="http://www.w3.org/1999/xhtml"&gt;&#xd;
         &lt;head&gt;&#xd;
             &lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"&gt;&#xd;
-            &lt;title&gt;Monitor Alarm&lt;/title&gt;&#xd;
+            &lt;title&gt;OpenNMS Notification&lt;/title&gt;&#xd;
             &lt;style type="text/css"&gt;&#xd;
                 body {&#xd;
                     font-family: "Open Sans", "Helvetica", Arial, sans-serif;&#xd;
