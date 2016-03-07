@@ -15,7 +15,17 @@ org.opennms.core.utils.charset=utf-8
 For each notification the mail text is saved in a dedicated HTML file.
 If you create new notifications you can copy and paste the content of the HTML files in the "Text Message" field in the notification editor in OpenNMS WebUI.
 
-Feel free to fork and improve
+You want to get on speed quickly? Make a backup of your existing one and use the `notifications.xml` provided in this repository in your `OPENNMS_HOME/etc` directory.
+The notification gives you a useful short message text for SMS and a mail filter friendly subject line, e.g.
+
+[source]
+----
+[OPENNMS][%severity%][%noticeid%] :: %nodelabel% interface %interface% down
+----
+
+Fork, Improve, Share!
 
 * Author: ronny@opennms.org
 * License: http://creativecommons.org/licenses/by/4.0/
+
+gl & hf
