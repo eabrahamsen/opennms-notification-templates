@@ -20,6 +20,7 @@
             font-family: "Open Sans", "Helvetica", Arial, sans-serif;&#xd;
             color: #000000;&#xd;
             margin: 5px;&#xd;
+            background-color: #fff;&#xd;
             }&#xd;
             &#xd;
             td {&#xd;
@@ -105,6 +106,7 @@
             width: 800px;&#xd;
             padding: 3px;&#xd;
             font-size: 11pt;&#xd;
+            background-color: #fff;&#xd;
             }&#xd;
             &lt;/style&gt;&#xd;
             &lt;/head&gt;&#xd;
@@ -212,6 +214,7 @@
             font-family: "Open Sans", "Helvetica", Arial, sans-serif;&#xd;
             color: #000000;&#xd;
             margin: 5px;&#xd;
+            background-color: #fff;&#xd;
             }&#xd;
             &#xd;
             td {&#xd;
@@ -297,6 +300,7 @@
             width: 800px;&#xd;
             padding: 3px;&#xd;
             font-size: 11pt;&#xd;
+            background-color: #fff;&#xd;
             }&#xd;
             &lt;/style&gt;&#xd;
             &lt;/head&gt;&#xd;
@@ -404,6 +408,7 @@
             font-family: "Open Sans", "Helvetica", Arial, sans-serif;&#xd;
             color: #000000;&#xd;
             margin: 5px;&#xd;
+            background-color: #fff;&#xd;
             }&#xd;
             &#xd;
             td {&#xd;
@@ -489,6 +494,7 @@
             width: 800px;&#xd;
             padding: 3px;&#xd;
             font-size: 11pt;&#xd;
+            background-color: #fff;&#xd;
             }&#xd;
             &lt;/style&gt;&#xd;
             &lt;/head&gt;&#xd;
@@ -598,6 +604,7 @@
             font-family: "Open Sans", "Helvetica", Arial, sans-serif;&#xd;
             color: #000000;&#xd;
             margin: 5px;&#xd;
+            background-color: #fff;&#xd;
             }&#xd;
             &#xd;
             td {&#xd;
@@ -683,6 +690,7 @@
             width: 800px;&#xd;
             padding: 3px;&#xd;
             font-size: 11pt;&#xd;
+            background-color: #fff;&#xd;
             }&#xd;
             &lt;/style&gt;&#xd;
             &lt;/head&gt;&#xd;
@@ -798,6 +806,7 @@
             font-family: "Open Sans", "Helvetica", Arial, sans-serif;&#xd;
             color: #000000;&#xd;
             margin: 5px;&#xd;
+            background-color: #fff;&#xd;
             }&#xd;
             &#xd;
             td {&#xd;
@@ -883,6 +892,7 @@
             width: 800px;&#xd;
             padding: 3px;&#xd;
             font-size: 11pt;&#xd;
+            background-color: #fff;&#xd;
             }&#xd;
             &lt;/style&gt;&#xd;
             &lt;/head&gt;&#xd;
@@ -998,6 +1008,7 @@
             font-family: "Open Sans", "Helvetica", Arial, sans-serif;&#xd;
             color: #000000;&#xd;
             margin: 5px;&#xd;
+            background-color: #fff;&#xd;
             }&#xd;
             &#xd;
             td {&#xd;
@@ -1083,6 +1094,7 @@
             width: 800px;&#xd;
             padding: 3px;&#xd;
             font-size: 11pt;&#xd;
+            background-color: #fff;&#xd;
             }&#xd;
             &lt;/style&gt;&#xd;
             &lt;/head&gt;&#xd;
@@ -1198,6 +1210,7 @@
             font-family: "Open Sans", "Helvetica", Arial, sans-serif;&#xd;
             color: #000000;&#xd;
             margin: 5px;&#xd;
+            background-color: #fff;&#xd;
             }&#xd;
             &#xd;
             td {&#xd;
@@ -1283,6 +1296,7 @@
             width: 800px;&#xd;
             padding: 3px;&#xd;
             font-size: 11pt;&#xd;
+            background-color: #fff;&#xd;
             }&#xd;
             &lt;/style&gt;&#xd;
             &lt;/head&gt;&#xd;
@@ -1310,12 +1324,12 @@
             &lt;td class="second_column"&gt;&lt;font color="#cc0000"&gt;%parm[value]%&lt;/font&gt;&lt;/td&gt;&#xd;
             &lt;/tr&gt;&#xd;
             &lt;tr class="grey_row"&gt;&#xd;
-            &lt;td class="first_column"&gt;Threshold:&lt;/td&gt;&#xd;
-            &lt;td class="second_column"&gt;%parm[threshold]%&lt;/td&gt;&#xd;
+            &lt;td class="first_column"&gt;Multiplier:&lt;/td&gt;&#xd;
+            &lt;td class="second_column"&gt;%parm[multiplier]%&lt;/td&gt;&#xd;
             &lt;/tr&gt;&#xd;
             &lt;tr&gt;&#xd;
-            &lt;td class="first_column"&gt;Rearm:&lt;/td&gt;&#xd;
-            &lt;td class="second_column"&gt;%parm[rearm]%&lt;/td&gt;&#xd;
+            &lt;td class="first_column"&gt;Previous Value:&lt;/td&gt;&#xd;
+            &lt;td class="second_column"&gt;%parm[previousValue]%&lt;/td&gt;&#xd;
             &lt;/tr&gt;&#xd;
             &lt;tr class="grey_row"&gt;&#xd;
             &lt;td class="first_column"&gt;Trigger:&lt;/td&gt;&#xd;
@@ -1399,6 +1413,7 @@
             font-family: "Open Sans", "Helvetica", Arial, sans-serif;&#xd;
             color: #000000;&#xd;
             margin: 5px;&#xd;
+            background-color: #fff;&#xd;
             }&#xd;
             &#xd;
             td {&#xd;
@@ -1484,6 +1499,7 @@
             width: 800px;&#xd;
             padding: 3px;&#xd;
             font-size: 11pt;&#xd;
+            background-color: #fff;&#xd;
             }&#xd;
             &lt;/style&gt;&#xd;
             &lt;/head&gt;&#xd;
@@ -1600,6 +1616,7 @@
             font-family: "Open Sans", "Helvetica", Arial, sans-serif;&#xd;
             color: #000000;&#xd;
             margin: 5px;&#xd;
+            background-color: #fff;&#xd;
             }&#xd;
             &#xd;
             td {&#xd;
@@ -1685,6 +1702,7 @@
             width: 800px;&#xd;
             padding: 3px;&#xd;
             font-size: 11pt;&#xd;
+            background-color: #fff;&#xd;
             }&#xd;
             &lt;/style&gt;&#xd;
             &lt;/head&gt;&#xd;
@@ -1803,6 +1821,7 @@
                 font-family: "Open Sans", "Helvetica", Arial, sans-serif;&#xd;
                 color: #000000;&#xd;
                 margin: 5px;&#xd;
+                background-color: #fff;&#xd;
             }&#xd;
             &#xd;
             td {&#xd;
@@ -1888,6 +1907,7 @@
                 width: 800px;&#xd;
                 padding: 3px;&#xd;
                 font-size: 11pt;&#xd;
+                background-color: #fff;&#xd;
             }&#xd;
             &lt;/style&gt;&#xd;
             &lt;/head&gt;&#xd;
